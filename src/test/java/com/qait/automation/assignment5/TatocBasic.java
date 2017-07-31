@@ -10,6 +10,12 @@ import org.testng.annotations.Test;
 
 public class TatocBasic {
 
+/**
+*
+* Test to BaicTatoc
+**/
+
+
 	@Test
 	public void tatocBasicTest() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "src/test/resources/Selenium_Drivers/chromedriver.exe");
