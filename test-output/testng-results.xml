@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="7" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12135" started-at="2017-07-28T06:14:16Z" finished-at="2017-07-28T06:14:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12135" started-at="2017-07-28T06:14:16Z" finished-at="2017-07-28T06:14:28Z">
+      <class name="com.qait.automation.assignment5.TatocAdvance">
+        <test-method status="PASS" signature="makeDatabaseConnection()[pri:0, instance:com.qait.automation.assignment5.TatocAdvance@6500df86]" name="makeDatabaseConnection" duration-ms="265" started-at="2017-07-28T11:44:16Z" finished-at="2017-07-28T11:44:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeDatabaseConnection -->
+        <test-method status="PASS" signature="tatocAdvanceTest()[pri:0, instance:com.qait.automation.assignment5.TatocAdvance@6500df86]" name="tatocAdvanceTest" duration-ms="8680" started-at="2017-07-28T11:44:16Z" depends-on-methods="com.qait.automation.assignment5.TatocAdvance.makeDatabaseConnection" finished-at="2017-07-28T11:44:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tatocAdvanceTest -->
+        <test-method status="PASS" signature="credentialsEntry()[pri:0, instance:com.qait.automation.assignment5.TatocAdvance@6500df86]" name="credentialsEntry" duration-ms="1114" started-at="2017-07-28T11:44:25Z" depends-on-methods="com.qait.automation.assignment5.TatocAdvance.tatocAdvanceTest" finished-at="2017-07-28T11:44:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- credentialsEntry -->
+        <test-method status="PASS" signature="getSessionId()[pri:0, instance:com.qait.automation.assignment5.TatocAdvance@6500df86]" name="getSessionId" duration-ms="102" started-at="2017-07-28T11:44:26Z" depends-on-methods="com.qait.automation.assignment5.TatocAdvance.credentialsEntry" finished-at="2017-07-28T11:44:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSessionId -->
+        <test-method status="PASS" signature="generateToken()[pri:0, instance:com.qait.automation.assignment5.TatocAdvance@6500df86]" name="generateToken" duration-ms="1795" started-at="2017-07-28T11:44:26Z" depends-on-methods="com.qait.automation.assignment5.TatocAdvance.getSessionId" finished-at="2017-07-28T11:44:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateToken -->
+        <test-method status="PASS" signature="registerForAccess()[pri:0, instance:com.qait.automation.assignment5.TatocAdvance@6500df86]" name="registerForAccess" duration-ms="143" started-at="2017-07-28T11:44:28Z" depends-on-methods="com.qait.automation.assignment5.TatocAdvance.generateToken" finished-at="2017-07-28T11:44:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerForAccess -->
+      </class> <!-- com.qait.automation.assignment5.TatocAdvance -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
